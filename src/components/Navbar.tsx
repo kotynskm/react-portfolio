@@ -2,7 +2,7 @@ import { pageLinks } from "../data";
 
 const Navbar = () => {
   return (
-    <div className="nav-container">
+    <div className="nav-container sticky">
       <ul className="nav-links">
         {pageLinks.map((link) => {
           return (

@@ -9,8 +9,8 @@
 .hero,
 .stack,
 .projects {
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px #707070;
+  color: rgb(0, 0, 0);
+  /* text-shadow: 2px 2px #707070; */
 }
 
 /* CSS */
@@ -58,16 +58,17 @@
   }
   .name {
     font-size: 50px;
+    margin-top: 30px;
   }
 }
 
 @media only screen and (min-width: 769px) {
   body {
-    background: url("./images/screen.png");
+    background: rgb(255, 255, 255);
     background-size: 100%;
   }
   .footer {
-    position: fixed;
+    position: relative;
     padding: 10px 10px 0px 10px;
     bottom: 0;
     width: 100%;
@@ -78,6 +79,7 @@
   }
   .name {
     font-size: 100px;
+    margin-top: 20px;
   }
   .title-words {
     font-size: 50px;
@@ -95,6 +97,16 @@ ul {
   justify-content: center;
   list-style: none;
   background-color: white;
+}
+
+.nav-container {
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-links,
